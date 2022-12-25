@@ -1,0 +1,115 @@
+.NavContainer{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 50;
+}
+.res-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    margin-left: 1rem;
+    margin-right: 1rem ;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.responsive-navbar{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: left;
+    padding: 1rem;
+}
+.menus{
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+    
+}
+.responsive-menus{
+    margin-left: -2rem;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    justify-content: space-between;
+
+}
+.responsive-menus>li{
+    padding: 1rem;
+}
+.menu{
+    list-style: none;
+}
+.active{
+    color: #FB5F65;
+    border-bottom: 2px solid #FB5F65;
+}
+.loginBtn{
+    display: flex;
+    width: 14vw;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.login{
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+}
+.responsive-loginBtn{
+    display: flex;
+    flex-direction: column;
+    
+}
+.signUp{
+    background-color: #FB5F65;
+    border: none;
+    color: white;
+    padding: 0.7rem 1.8rem;
+    border-radius: 8px;
+    font-size: 1rem;
+
+}
+.responsive-signUp{
+    background-color: #FB5F65;
+    border: none;
+    color: white;
+    padding: 0.7rem 1.8rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+    .responsive-navbar{
+        width: 70vw;
+    }
+    .menus{
+        display: none;
+    }
+    .loginBtn{
+        display: none;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 1023px){
+    
+  }
+  @media screen and (min-width: 1024px) {
+    .hamburgerIcon{
+        display: none;
+    }
+  }

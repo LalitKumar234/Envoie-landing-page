@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  overflow: none;
+}
+h1{
+  font-size: 3rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btn-primary{
+  background-color: #FB5F65;
+  border: none;
+  color: white;
+  padding: 0.7rem 2.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Lexend', sans-serif;
+  transition: 400ms;
+
+}
+.btn-primary:hover{
+  background-color: white;
+  color: #FB5F65;
+  border: 1.5px solid #FB5F65;
+}
+.btn-primary-long{
+  background-color: #FB5F65;
+  border: none;
+  color: white;
+  padding: 0.7rem 14rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Lexend', sans-serif;
+  transition: 400ms;
+}
+.btn-primary-long:hover{
+  background-color: white;
+  color: #FB5F65;
+  border: 1.5px solid #FB5F65;
+}
+button{
+  cursor: pointer;
+}
+.btn-secondary{
+  background-color: transparent;
+  border: none;
+  color: #FB5F65;
+  padding: 0.7rem 2.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Lexend', sans-serif;
+}
+.redColor{
+  color:#FB5F65;
+}
+li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+strong{
+  font-weight: 400;
+  margin-right: 0.4rem;
+}
+@media screen and (max-width: 767px) {
+  .btn-primary-long{
+    padding: 0.7rem 3rem;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+
+}
+@media screen and (min-width: 1024px) {
+
+}

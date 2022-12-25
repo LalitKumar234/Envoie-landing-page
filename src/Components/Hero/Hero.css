@@ -1,0 +1,37 @@
+.heroContainer{
+    margin-top: 5rem;
+}
+.heading{
+    color: #222222;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.heading > span{
+    color: #FB5F65;
+}
+.subheading{
+    margin: 2rem 25rem;
+}
+.subheading > span{
+    color: #FB5F65;
+
+}
+.heroImage{
+    background-image: url('../../Assets/HeroBG.svg');
+}
+@media screen and (max-width: 767px) {
+    .subheading{
+        margin: 1rem 1rem;
+
+    }
+    .heroImage>img{
+        width: 25rem;
+        height: auto;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+
+}
+@media screen and (min-width: 1024px) {
+
+}

@@ -1,0 +1,66 @@
+.footerSection{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.footerContent{
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #8080801A;
+}
+.footerText{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.border-right {
+    border-right: 1px solid black;
+    padding: 0rem 1rem 0rem 1rem;
+}
+.footer-end{
+    color: #808080;
+    font-size: 0.8rem;
+}
+.email{
+    font-size: 0.9rem;
+}
+.github{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .footerSection{
+        height: auto;
+        padding: 0rem;
+    }
+    .footerContent{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .border-right {
+        border-right: none;
+        padding: 0rem
+    }
+    .footerText{
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 1023px){
+  
+  }
+  @media screen and (min-width: 1024px) {
+  
+  }

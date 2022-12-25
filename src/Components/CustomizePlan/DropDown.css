@@ -1,0 +1,40 @@
+.input{
+    position: relative;
+    cursor: pointer;
+}
+.inputField{
+    border: 1.2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    width: 20rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.value > p{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.options{
+    margin-top: 0.5rem;
+    width: 17.5rem;
+    height: auto;
+    position: absolute;
+    background-color: white;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    z-index: 2;
+
+}
+.options > li{
+    padding: 1rem;
+    margin-left: -2rem;
+    border-bottom: 1px solid #8080801A;
+    color: #808080;
+    cursor: pointer;
+}
+.options > li:hover{
+    color: black;
+
+}

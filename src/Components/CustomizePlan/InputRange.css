@@ -1,0 +1,32 @@
+.range {
+    position: relative;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    height: 10px;
+    background: #E0D8D8;
+    border-radius: 5px;
+    background-image: linear-gradient(#FB5F65, #FB5F65);
+    background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: #FB5F65;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    border: 2px solid white;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}

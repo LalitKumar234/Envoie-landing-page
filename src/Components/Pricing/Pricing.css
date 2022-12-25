@@ -1,0 +1,148 @@
+.pricingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.priceplans{
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+.plan{
+    border: 1px solid #222222B2;
+    width: 50vw;
+    height: auto;
+    margin: 3rem;
+    border-radius: 8px;
+    position: relative;
+    transition: 0.33s;
+}
+.plan:hover{
+    border: 1px solid #FB5F65;
+}
+.girlImage{
+    position: absolute;
+    top: -17%;
+    right: -8%;
+}
+.planHeader{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 0rem 3rem;
+}
+.planFooter{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.plusPlanHeader{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 3rem;
+    align-items: center;
+}
+.featureSection{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 3rem;
+}
+.features{
+    padding: 2rem 0.5rem;
+    text-align: left;
+}
+.features>li{
+    padding: 0.6rem;
+}
+.addOns{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin: 0rem 3rem;
+    align-items: baseline;
+    flex-direction: column;
+    height: 15rem;
+
+}
+.addonFeatures{
+    text-align: left;
+}
+.addonFeatures>li{
+    padding: 0.6rem;
+}
+.exportHeading{
+    text-align: left;
+    margin-left: 3rem;
+    margin-bottom: -1rem;
+}
+.billTag{
+    background-color: #FFEDED;
+    padding: 0.1rem 2rem;
+    border-radius: 3rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.billTag>p{
+    font-size: 0.8rem;
+}
+.switch-btn{
+    width:fit-content;
+    border: 1.5px solid #FB5F65;
+    padding: 0.2rem;
+    border-radius: 13px;
+}
+.planPrice{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+    .priceplans{
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .plan{
+        width: 90vw;
+        margin: 1rem;
+    }
+    .girlImage{
+        display: none;
+    }
+    .featureSection{
+        flex-direction: column;
+    }
+    .planHeader{
+        margin: 0rem 1rem;
+    }
+    .plusPlanHeader{
+        flex-direction: column;
+        margin: 0rem 1rem;
+    }
+    .addOns{
+        height: auto;
+        margin: 0rem 3rem;
+    }
+    .features{
+        padding: 0rem 0rem;
+    }
+    .featureSection{
+        align-items: baseline;
+    }
+    .addonFeatures>li{
+        margin-left: -2rem;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+
+}
+@media screen and (min-width: 1024px) {
+
+}
